@@ -126,34 +126,6 @@ nav .navMenu {
 /* menu */
 
 
-/* nav contact */
-
-/* เผื่อทำ link เบอร์โทร */
-/* .nav-contact{
-    background-color: #fff;
-    align-self: center;
-    color: black;
-    padding: 20px 50px;
-    justify-self: center;
-    border-radius: 30px;
-    border: 1px solid blueviolet;
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-
-    display: inline-block;
-    text-decoration: none;
-}
-
-.nav-contact:hover{
-    background-color: blueviolet;
-    color: #fff;
-    transition: 0.5s;
-
-    border: 1px solid #fff;
-
-} */
-
 nav .fa {
 
     display: none;
@@ -221,7 +193,7 @@ nav .fa {
 }
 
 .detail-profile p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* p */
@@ -303,15 +275,11 @@ nav .fa {
 }
 
 /* แบ่ง */
-.aboutMe-Detail-grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 20% 1fr;
-    gap: 10%;
-}
-
 /* about title top */
 
+.aboutMe-title{
+    text-align: center;
+}
 .aboutMe-title .fa {
     color: #a67b5b;
     font-size: 30px;
@@ -373,7 +341,7 @@ nav .fa {
 .aboutMe-detail-item-1 {
     border: 1px solid rgb(0, 0, 0);
     padding: 4%;
-    border-radius: 10%;
+    border-radius: 1rem;
     grid-column: 1/2;
 }
 
@@ -395,7 +363,7 @@ nav .fa {
 .aboutMe-detail-item-2 {
     border: 1px solid black;
     padding: 4%;
-    border-radius: 10%;
+    border-radius: 1rem;
     grid-column: 2/3;
 }
 
@@ -539,6 +507,7 @@ nav .fa {
 }
 
 .detail-link-demo a {
+    font-size: 18px;
     background-color: #fff;
     padding: 5px 20px;
     border-radius: 1rem;
@@ -757,7 +726,7 @@ footer p {
     }
 
     .detail-profile p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     /* button */
@@ -771,7 +740,7 @@ footer p {
     }
 
     .detail-profile-span {
-        display: none;
+        /* display: none; */
     }
 
 
@@ -781,10 +750,6 @@ footer p {
     /* about */
     .aboutMe .container {
         padding: 5% 0;
-    }
-
-    .aboutMe-Detail-grid {
-        display: block;
     }
 
     .aboutMe-profile {
@@ -877,7 +842,7 @@ footer p {
     }
 
     .aboutMe-tool-skill {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
     /* about */
@@ -898,7 +863,7 @@ footer p {
     }
 
     .work-list-grid {
-        display: block;
+        /* display: block; */
         padding: 5%;
     }
 
@@ -952,6 +917,11 @@ footer p {
     /* menu */
     nav {
         display: flex;
+    }
+
+
+    */ .navMenu ul {
+        display: block;
     }
 
     */ .navMenu li {
@@ -1074,9 +1044,6 @@ footer p {
         padding: 5% 0;
     }
 
-    .aboutMe-Detail-grid {
-        display: block;
-    }
 
     .aboutMe-profile {
         padding: 0;
@@ -1373,7 +1340,7 @@ footer p {
     }
 
     .detail-profile p {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     /* button */
@@ -1399,9 +1366,6 @@ footer p {
         padding: 5% 0;
     }
 
-    .aboutMe-Detail-grid {
-        display: block;
-    }
 
     .aboutMe-profile {
         padding: 0;
@@ -1422,7 +1386,13 @@ footer p {
         color: black;
     }
 
+    .aboutMe-title .fa {
+        display: none;
+    }
 
+    .aboutMe-title{
+        text-align: unset;
+    }
     .aboutMe-title-h1::after {
         content: '';
         width: 80%;
@@ -1433,7 +1403,7 @@ footer p {
         margin: 20px;
     }
 
-    .hidden-aboutMe-title {
+    /* .hidden-aboutMe-title {
         display: block;
         padding-right: -20%;
         justify-self: center;
@@ -1441,10 +1411,11 @@ footer p {
         color: rgb(26, 17, 16, 0.8);
         font-size: 30px;
         padding: 0 5px;
-    }
+    } */
 
     .aboutMe-title {
-        display: none;
+        /* display: none; */
+        
     }
 
     .aboutMe-right {
@@ -1488,7 +1459,7 @@ footer p {
     /* ---------------------- my work----------------------------- */
 
     .my-work p{
-        font-size: 20px;
+        font-size: 25px;
     }
     .my-work-hidden {
         display: none;
@@ -1497,6 +1468,14 @@ footer p {
     .work-list-grid {
         display: block;
         padding: 5%;
+    }
+
+    .project-list-detail p{
+        font-size: 25px;
+    }
+
+    .detail-link-demo a{
+        font-size: 20px;
     }
 
     .project-list {
@@ -1527,11 +1506,13 @@ footer p {
         padding: 5% 10%;
     }
 
+
     .contact-detail-item {
         justify-content: center;
         gap: 5%;
         
     }
+
 
 
     .contact-detail-link {
@@ -1598,14 +1579,15 @@ footer p {
 
     /* menu */
     nav {
-        display: flex;
+        /* display: flex; */
     }
 
-    */ .navMenu li {
+    .navMenu  ul li {
         display: block;
     }
 
     .navMenu {
+        /* display: block; */
         padding: 5% 0;
         position: absolute;
         background-color: rgb(138, 43, 226, 0.99);
@@ -1633,6 +1615,7 @@ footer p {
     }
 
     nav .fa {
+
         display: inline-block;
         font-size: 22px;
         cursor: pointer;
@@ -1733,9 +1716,6 @@ footer p {
         background-color: brown;
     }
 
-    .aboutMe-Detail-grid {
-        display: block;
-    }
 
     .aboutMe-profile {
         padding: 0;
@@ -1773,7 +1753,7 @@ footer p {
         justify-self: center;
         width: auto;
         color: rgb(26, 17, 16, 0.8);
-        font-size: 18px;
+        font-size: 19px;
         padding: 0 5px;
     }
 
@@ -1787,6 +1767,10 @@ footer p {
 
     .aboutMe-detail {
         display: block;
+    }
+
+    .aboutMe-detail p {
+        font-size: 18px;
     }
 
     .aboutMe-detail-item-1 {
@@ -1818,6 +1802,10 @@ footer p {
     .work-list-grid {
         display: block;
         padding: 2%;
+    }
+    .my-work p{
+        font-size: 18px;
+        padding: 5% 0;
     }
 
     .project-list {
@@ -1854,6 +1842,9 @@ footer p {
         gap: 5%;
     }
 
+    .contact-detail-item p{
+        font-size: 16px;
+    }
     .contact-detail .contact-detail-link {
         padding: 5% 0;
     }
@@ -1872,8 +1863,9 @@ footer p {
         /* background-color: rgb(242, 243, 244); */
         /* background-color: rgb(138,43,226,0.3); */
         background-color: rgb(206, 200, 239, 1);
-        height: 50px;
+        height: 60px;
         align-self: center;
+        font-size: 15px;
     }
 
     /* footer */
