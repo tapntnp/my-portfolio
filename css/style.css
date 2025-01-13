@@ -907,6 +907,9 @@ footer p {
 
     /* ---------------------- my work----------------------------- */
 
+    .my-work {
+        padding-bottom: 5%;
+    }
     .my-work p{
         padding: 1% 5%;
         font-size: 22px;
