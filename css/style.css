@@ -908,7 +908,7 @@ footer p {
     /* ---------------------- my work----------------------------- */
 
     .my-work p{
-        padding: 1% 5%;
+        padding: 5% 5%;
         font-size: 22px;
     }
     .my-work-hidden {
@@ -927,6 +927,7 @@ footer p {
 
     .project-list {
         margin-bottom: 5%;
+        padding-bottom: 5%;
     }
 
     .project-list h3{
